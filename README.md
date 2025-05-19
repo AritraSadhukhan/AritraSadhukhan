@@ -31,7 +31,7 @@ A passionate **Data Analyst** skilled in transforming data into actionable insig
 
 ## 🌐 **Connect with Me:**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/aritra-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/aritrasadhukhan)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/your-github-username)
 
 ---
