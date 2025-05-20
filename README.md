@@ -43,7 +43,7 @@ A passionate **Data Analyst** skilled in transforming data into actionable insig
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />  
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />  
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />  
-
+![snake gif](https://github.com/AritraSadhukhan/AritraSadhukhan/blob/output/github-snake-dark.svg)
 ---
 
 🌱 **Always eager to learn new technologies and take on challenging projects.**
