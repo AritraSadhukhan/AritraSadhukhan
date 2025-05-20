@@ -1,29 +1,39 @@
-name: 🐍 Generate Snake Animation
+name: 🐍 Generate GitHub Contribution Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Every day at midnight UTC
+    - cron: "0 0 * * *"  # Every day at midnight UTC
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
-    name: Generate GitHub Contribution Snake
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
-      - name: Checkout repository
+      # ✅ Checkout your code
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
+      # ✅ Generate Snake Animation
+      - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and Push
-        uses: EndBug/add-and-commit@v9
+      # ✅ Deploy SVGs to output branch (for embedding in README)
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          message: "🐍 Generate GitHub contribution snake"
-          add: "dist/*.svg"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "🟢 Update GitHub contribution snake [skip ci]"
