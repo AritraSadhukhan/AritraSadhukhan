@@ -14,7 +14,7 @@ A passionate **Data Analyst** skilled in transforming data into actionable insig
 ## 💼 **Skills:**
 
 * **Data Analysis:** Data wrangling, transformation, and reporting  
-* **Visualization Tools:** Power BI, Tableau  
+* **Visualization Tools:** Power BI  
 * **Databases:** SQL (MySQL, PostgreSQL)  
 * **Spreadsheet Skills:** Excel (Advanced formulas, Pivot tables, VLOOKUP)  
 * **Programming:** Python for data manipulation and automation  
