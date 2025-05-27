@@ -48,6 +48,8 @@ A passionate **Data Analyst** skilled in transforming data into actionable insig
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/aritrasadhukhan)  
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/your-github-username)
+📄 [View My Resume]()
+
 
 ---
 
