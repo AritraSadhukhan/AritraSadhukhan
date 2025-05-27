@@ -38,8 +38,9 @@ A passionate **Data Analyst** skilled in transforming data into actionable insig
 
 - 🧠 **Customer Segmentation Analysis:**  
   Tableau-based project using clustering for better marketing strategy and targeting.
-- 🐦 **Illegal Hunting & Poaching Detection Using AI in Amazon Rainforest Birds**
-  Developed a machine learning model to detect illegal hunting and poaching of Amazon rainforest birds using acoustic signal analysis and bioacoustic feature extraction.
+- 🐦 **Illegal Hunting & Poaching Detection Using AI in Amazon Rainforest Birds:**
+
+   Developed a machine learning model to detect illegal hunting and poaching of Amazon rainforest birds using acoustic signal analysis and bioacoustic feature extraction.
   
 ---
 
